@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="auhtor" charset="">
+	<meta name="description" charset="">
+	<meta name="keywords" charset="">
+	<style type="text/css">
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 16px;
+	font-family: Arial;
+}
+
+.contGeneral{
+	width: 100%;
+}
+
+.clearBoth{
+	clear: both;
+}
+
+.contHeader {
+	width: 100%;
+	padding: 20px;
+	background: #A93226;
+	/*background: #3498DB;*/
+}
+
+.contTop {
+	width: 100%;
+	height: 50px;
+}
+
+.contIcon {
+	width: 15%;
+	float: left;
+	height: 50px;
+}
+
+.iconImg {
+	width: 50px;
+	height: 50px;
+}
+
+.iconImg img {
+	width: 50px;
+	height: 50px;
+}
+
+.contSearch {
+	/*display: none;*/
+	width: 50%;
+	float: left;
+}
+
+.contIB{
+	width: 100%;
+	height: 50px;
+	background: white;
+}
+
+.contInput {
+	width: 80%;
+	height: 50px;
+	float: left;
+	background: white;
+	padding: 10px 0px 10px 10px;
+	/*border-radius: 15px 0 0 15px;*/
+}
+
+.contInput input[type="text"] {
+	width: 100%;
+	height: 30px;
+	border: 0;
+	outline: none;
+
+}
+
+.contBtn {
+	width: 50px;
+	height: 50px;
+	float: right;
+	background: white;
+	/*border-radius: 0 15px 15px 0;*/
+}
+
+.contBtn button {
+	border: 0;
+	width: 50px;
+	height: 50px;
+	outline: none;
+	background: white;
+	/*border-radius: 0 15px 15px 0;*/
+}
+
+.contBtn button img {
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+	margin: 10px;
+	background: white;
+	/*border-radius: 0 15px 15px 0;*/
+}
+
+.contBtn button img:active {
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+}
+
+.contSocialNetworks  {
+	width: 35%;
+	float: left;
+	height: 50px;
+}
+
+.contSocialNetworks ul {
+	padding: 0;
+	height: 50px;
+	text-align: right;
+}
+
+.contSocialNetworks ul li {
+	display: inline-block;
+	list-style: none;
+}
+
+.contSocialNetworks ul li a  {
+	text-decoration: none;
+	display: block;
+	height: 50px;
+}
+
+.contSocialNetworks ul li a img {
+	width: 30px;
+	height: 30px;
+	margin: 10px;
+	opacity: .5;
+}
+
+.contSocialNetworks ul li a img:hover {
+	opacity: 1;
+}
+
+.contSocialNetworks ul li a img:active {
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+}
+
+.contNav {
+	width: 100%;
+}
+
+.contNav ul {
+	padding: 0;
+	text-align: left;
+}
+
+.contNav ul li {
+	display: inline-block;
+	list-style: none;
+}
+
+.contNav ul li a {
+	text-decoration: none;
+	display: block;
+	padding: 15px 20px;
+	margin-top: 20px;
+	margin-right: 5px;
+	border: 1px solid white;
+	color: white;
+}
+
+.contNav ul li a:hover {
+	border: 1px solid #17202A;
+	background: #17202A;
+}
+
+.contMain {
+	width: 100%;
+	background: white;
+}
+
+.contSectionImg {
+	width: 100%;
+	height: 700px;
+	background: url(img/main.jpg);
+	background-size: cover; 
+}
+
+.contArticleImg{
+	width: 100%;
+	height: 700px;
+	background: rgba(0, 0, 0, .3);
+	background-size: cover; 
+	padding: 100px;
+}
+
+.contNewProducts {
+	width: 80%;
+	height: 500px;
+	margin: 0 auto;
+	border: 1px solid white;
+}
+
+.contNewImg {
+	width: 50%;
+	height: 500px;
+	float: left;
+	background: rgba(255, 255, 255, .5);
+}
+
+.contNewText {
+	width: 50%;
+	height: 500px;
+	float: left;
+	background: rgba(255, 255, 255, .5);
+}
+
+.contSection {
+	width: 100%;
+	padding: 10px;
+	height: 1220px;
+}
+
+.contArticle{
+	float: left;
+	padding: 10px;
+}
+
+.a-01 {
+	width: 40%;
+	height: 1200px;
+}
+
+.a-02 {
+	width: 60%;
+	height: 400px;
+}
+
+.a-03 {
+	width: 30%;
+	height: 400px;
+}
+
+.a-04 {
+	width: 30%;
+	height: 400px;
+}
+
+.a-05 {
+	width: 60%;
+	height: 400px;	
+}
+
+.contImg {
+	width: 100%;
+	height: 100%;
+	background: #17202A;
+	background-size: cover;
+}
+
+.i-01 {
+	background-image: url(img/main.jpg);
+}
+
+.i-02 {
+	background-image: url(img/main.jpg);
+}
+
+.i-03 {
+	background-image: url(img/main.jpg);
+}
+
+.i-04 {
+	background-image: url(img/main.jpg);
+}
+
+.i-05 {
+	background-image: url(img/main.jpg);
+}
+
+.contLink{
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .3);
+}
+
+.contFooter {
+	width: 100%;
+	background: #A93226;
+}
+
+.contContact {
+	width: 100%;
+}
+
+.contText {
+	width: 100%;
+	padding: 20px 20px 0 20px;
+	text-align: center;
+}
+
+.contText p {
+	color: white;
+	font-size: 40px;
+}
+
+.contForm {
+	width: 60%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.contForm input[type="text"],
+.contForm input[type="email"],
+.contForm input[type="number"],
+.contForm textarea {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0; 
+	outline: none;
+	border: 0;
+}
+
+.contForm input[type="submit"] {
+	padding: 10px;
+	width: 30%;
+	margin: 10px 35%;
+	border: 0;
+	background: #A93226;
+	color: white;
+	border: 1px solid white;
+}	
+
+.contForm input[type="submit"]:hover {
+	background: #17202A;
+	border: 1px solid #17202A;
+}
+
+.contForm textarea {
+	max-width: 100%;
+	min-width: 100%;
+	max-height: 100px;
+	min-height: 100px;
+}
+
+.contSocial	{
+	width: 100%;
+	padding: 0px 20px 20px 20px;
+}
+
+.iconSocial {
+	width: 250px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.iconFacebook,
+.iconWhatsApp,
+.iconInstagram {
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+
+.iconWhatsApp {
+	margin: 0 50px;
+}
+
+.iconFacebook a,
+.iconWhatsApp a,
+.iconInstagram a {
+	display: block;
+	text-decoration: none;
+}
+
+.iconFacebook a img,
+.iconWhatsApp a img,
+.iconInstagram a img {
+	width: 30px;
+	height: 30px;
+	margin: 10px;
+	opacity: .5;
+}
+
+.iconFacebook a img:hover,
+.iconWhatsApp a img:hover,
+.iconInstagram a img:hover {
+	opacity: 1;
+}
+
+.iconFacebook a img:active,
+.iconWhatsApp a img:active,
+.iconInstagram a img:active {
+	width: 40px;
+	height: 40px;
+	margin: 5px;
+}
+
+
+.contCopyright {
+	width: 100%;
+	padding: 0px 20px 20px 20px;
+	text-align: center;
+}
+
+.contCopyright p {
+	color: white;
+}
+	</style>
+	<title>Refrigeració y Maquinaria J. L.</title>
+</head>
+<body>
+	<div class="contGeneral">
+		<header class="contHeader">
+			<div class="contTop">
+				<div class="clearBoth"></div>
+				<div class="contIcon">
+					<div class="iconImg">
+						<img src="icon/carne.svg">
+					</div>
+				</div>
+				<div class="contSearch">
+					<div class="contIB">
+						<div class="clearBoth"></div>
+						<div class="contInput">
+							<input type="text" name="" placeholder="Buscar: ">
+						</div>
+						<div class="contBtn">
+							<button>
+								<img src="icon/search.svg">
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="contSocialNetworks">
+					<ul>
+						<li><a href=""><img src="icon/facebook.svg"></a></li>
+						<li><a href=""><img src="icon/whatsapp.svg"></a></li>
+						<li><a href=""><img src="icon/instagram.svg"></a></li>
+					</ul>
+				</div>
+			</div>
+			<nav class="contNav">
+				<ul>
+					<li><a href="">Catálogo</a></li>
+					<li><a href="">Contáctanos</a></li>
+					<li><a href="">Nosotros</a></li>
+					<li><a href="">Ubicación</a></li>
+				</ul>	
+			</nav>
+		</header>
+		<main class="contMain">
+			<section class="contSectionImg">
+				<article class="contArticleImg">
+					<div class="contNewProducts">
+						<div class="clearBoth"></div>
+						<div class="contNewImg">
+							
+						</div>
+						<div class="contNewText">
+							
+						</div>
+					</div>
+				</article>
+			</section>
+			<section class="contSection">
+				<div class="clearBoth"></div>
+				<article class="contArticle a-01">
+					<div class="contImg i-01">
+						<div class="contLink">
+						
+						</div>
+					</div>
+				</article>
+				<article class="contArticle a-02">
+					<div class="contImg i-02">
+						<div class="contLink">
+						
+						</div>
+					</div>
+				</article>
+				<article class="contArticle a-03">
+					<div class="contImg i-03">
+						<div class="contLink">
+						
+						</div>
+					</div>
+				</article>
+				<article class="contArticle a-04">
+					<div class="contImg i-04">
+						<div class="contLink">
+						
+						</div>
+					</div>
+				</article>
+				<article class="contArticle a-05">
+					<div class="contImg i-05">
+						<div class="contLink">
+						
+						</div>
+					</div>
+				</article>
+			</section>
+		</main>
+		<footer class="contFooter">
+			<div class="contContact">
+				<div class="contText">
+					<p>CONTÁCTANOS</p>
+				</div>
+				<form class="contForm" action="">
+					<input type="text" name="" placeholder="Nombre: ">
+					<input type="text" name="" placeholder="Apellido: ">
+					<input type="email" name="" placeholder="Correo: ">
+					<input type="number" name="" placeholder="Número: ">
+					<textarea placeholder="Escribe un mensaje: "></textarea>
+					<input type="submit" name="" value="Enviar">
+				</form>
+			</div>
+			<div class="contSocial">
+				<div class="iconSocial">
+					<div class="clearBoth"></div>
+					<div class="iconFacebook">
+						<a href=""><img src="icon/facebook.svg"></a>
+					</div>
+					<div class="iconWhatsApp">
+						<a href=""><img src="icon/whatsapp.svg"></a>
+					</div>
+					<div class="iconInstagram">
+						<a href=""><img src="icon/instagram.svg"></a>
+					</div>
+				</div>
+			</div>
+			<div class="contCopyright">
+				<p>Copyright © 2000-2000 Basculas y Refrigeradores J. L.</p>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

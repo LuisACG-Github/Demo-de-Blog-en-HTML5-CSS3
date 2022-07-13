@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="auhtor" charset="">
+	<meta name="description" charset="">
+	<meta name="keywords" charset="">
+	<style type="text/css">
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 16px;
+	font-family: Arial;
+}
+
+.contGeneral{
+	width: 100%;
+}
+
+.clearBoth{
+	clear: both;
+}
+
+.contHeader {
+	width: 100%;
+	padding: 20px;
+	background: rgba(0, 0, 0, .8);
+}
+
+.contTop {
+	width: 100%;
+	height: 50px;
+}
+
+.contIcon {
+	width: 15%;
+	float: left;
+	height: 50px;
+}
+
+.iconImg {
+	width: 50px;
+	height: 50px;
+}
+
+.iconImg img {
+	width: 50px;
+	height: 50px;
+}
+
+.contNav  {
+	width: 85%;
+	float: left;
+	height: 50px;
+}
+
+.contNav ul {
+	padding: 0;
+	height: 50px;
+	text-align: right;
+}
+
+.contNav ul li {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.contNav ul li a  {
+	list-style: none;
+	display: block;
+	height: 50px;
+}
+
+.contNav ul li a img {
+	width: 50px;
+	height: 50px;
+	opacity: .5;
+	margin-left: 20px;
+}
+
+.contNav ul li a img:hover {
+	opacity: 1;
+}
+
+.contSearch {
+	/*display: none;*/
+	width: 100%;
+	padding: 10px 0 0 0;
+	
+}
+
+.contIB{
+	width: 40%;
+	height: 30px;
+	margin: 0 auto;
+	background: white;
+	
+}
+
+.contInput {
+	width: 80%;
+	height: 30px;
+	float: left;
+	background: white;
+	padding: 5px 0px 5px 5px;
+	/*border-radius: 15px 0 0 15px;*/
+}
+
+.contInput input[type="text"] {
+	width: 100%;
+	height: 20px;
+	border: 0;
+	outline: none;
+
+}
+
+.contBtn {
+	width: 30px;
+	height: 30px;
+	float: right;
+	background: white;
+	/*border-radius: 0 15px 15px 0;*/
+}
+
+.contBtn button {
+	border: 0;
+	width: 30px;
+	height: 30px;
+	outline: none;
+	background: white;
+	/*border-radius: 0 15px 15px 0;*/
+}
+
+.contBtn button img {
+	background-size: cover;
+	width: 20px;
+	height: 20px;
+	margin: 5px;
+	background: white;
+	/*border-radius: 0 15px 15px 0;*/
+}
+
+.contMain {
+	width: 100%;
+	background: white;
+}
+
+.contSectionImg {
+	width: 100%;
+}
+
+.contArticleImg{
+	width: 100%;
+	height: 700px;
+	background: rgba(0, 0, 0, .5);
+}
+
+.contSection {
+	width: 100%;
+	padding: 10px;
+	height: 1220px;
+}
+
+.contArticle{
+	float: left;
+	padding: 10px;
+}
+
+.a-01 {
+	width: 40%;
+	height: 1200px;
+}
+
+.a-02 {
+	width: 60%;
+	height: 400px;
+}
+
+.a-03 {
+	width: 30%;
+	height: 400px;
+}
+
+.a-04 {
+	width: 30%;
+	height: 400px;
+}
+
+.a-05 {
+	width: 60%;
+	height: 400px;	
+}
+
+.contImg {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .8);
+}
+
+.i-01 {
+	background-image: ;
+}
+
+.i-02 {
+	background-image: ;
+}
+
+.i-03 {
+	background-image: ;
+}
+
+.i-04 {
+	background-image: ;
+}
+
+.contFooter {
+	width: 100%;
+	
+}
+
+.contContact {
+	width: 100%;
+	background: rgba(0, 0, 0, .5);
+}
+
+.contText {
+	width: 100%;
+	padding: 20px 20px 0 20px;
+	text-align: center;
+}
+
+.contText p {
+	color: white;
+	font-size: 40px;
+}
+
+.contForm {
+	width: 60%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.contForm input[type="text"],
+.contForm input[type="email"],
+.contForm input[type="number"],
+.contForm textarea {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0; 
+	outline: none;
+}
+
+.contForm input[type="submit"] {
+	padding: 10px;
+	width: 30%;
+	margin: 10px 35%;
+}	
+
+.contForm textarea {
+	max-width: 100%;
+	min-width: 100%;
+	max-height: 100px;
+	min-height: 100px;
+}
+
+.contSocial	{
+	width: 100%;
+	height: 50px;
+	background: rgba(0, 0, 0, .7);
+}
+
+.contCopyright {
+	width: 100%;
+	height: 50px;
+	background: rgba(0, 0, 0, .9);
+}
+	</style>
+	<title>Refrigeració y Maquinaria J. L.</title>
+</head>
+<body>
+	<div class="contGeneral">
+		<header class="contHeader">
+			<div class="contTop">
+				<div class="clearBoth"></div>
+				<div class="contIcon">
+					<div class="iconImg">
+						<img src="">
+					</div>
+				</div>
+				<nav class="contNav">
+					<ul>
+						<li><a href=""><img src=""></a></li>
+						<li><a href=""><img src=""></a></li>
+						<li><a href=""><img src=""></a></li>
+						<li><a href=""><img src=""></a></li>
+						<li><a href=""><img src=""></a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="contSearch">
+				<div class="contIB">
+					<div class="clearBoth"></div>
+					<div class="contInput">
+						<input type="text" name="">
+					</div>
+					<div class="contBtn">
+						<button>
+							<img src="search.svg">
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="contMain">
+			<section class="contSectionImg">
+				<article class="contArticleImg">
+					
+				</article>
+			</section>
+			<section class="contSection">
+				<div class="clearBoth"></div>
+				<article class="contArticle a-01">
+					<div class="contImg i-01">
+						
+					</div>
+				</article>
+				<article class="contArticle a-02">
+					<div class="contImg i-02">
+						
+					</div>
+				</article>
+				<article class="contArticle a-03">
+					<div class="contImg i-03">
+						
+					</div>
+				</article>
+				<article class="contArticle a-04">
+					<div class="contImg i-04">
+						
+					</div>
+				</article>
+				<article class="contArticle a-05">
+					<div class="contImg i-05">
+						
+					</div>
+				</article>
+			</section>
+		</main>
+		<footer class="contFooter">
+			<div class="contContact">
+				<div class="contText">
+					<p>CONTÁCTANOS</p>
+				</div>
+				<form class="contForm" action="">
+					<input type="text" name="" placeholder="Nombre: ">
+					<input type="text" name="" placeholder="Apellido: ">
+					<input type="email" name="" placeholder="Correo: ">
+					<input type="number" name="" placeholder="Número: ">
+					<textarea placeholder="Escribe un mensaje: "></textarea>
+					<input type="submit" name="" value="Enviar">
+				</form>
+			</div>
+			<div class="contSocial">
+				<div class="iconSocial">
+					<div class="iconFacebook">
+						<img src="">
+					</div>
+					<div class="iconWhatsApp">
+						<img src="">
+					</div>
+					<div class="iconInstagram">
+						<img src="">
+					</div>
+				</div>
+			</div>
+			<div class="contCopyright">
+				
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
+
+SocialNetworks
